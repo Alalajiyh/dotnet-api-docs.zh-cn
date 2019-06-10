@@ -2266,7 +2266,7 @@
         <param name="type">该客户端脚本块的类型。 通常使用 <see langword="typeof" /> 运算符 (C#) 或 <see langword="GetType" /> 运算符 (Visual Basic) 来指定该参数，以检索正在注册该脚本的控件的类型。</param>
         <param name="key">该脚本块的唯一标识符。</param>
         <param name="script">脚本。</param>
-        <param name="addScriptTags">如果用 <see langword="true" /> 和 <see langword="&lt;script&gt;" /> 标记括起该脚本块，则为 <see langword="&lt;/script&gt;" />；否则为 <see langword="false" />。</param>
+        <param name="addScriptTags">如果用 <see langword="&lt;script&gt;" /> 和 <see langword="&lt;/script&gt;" /> 标记括起该脚本块，则为 <see langword="true" />；否则为 <see langword="false" />。</param>
         <summary>向 <see cref="T:System.Web.UI.ScriptManager" /> 控件注册一个客户端脚本块，以便和 <see cref="T:System.Web.UI.UpdatePanel" /> 控件中的某个控件一起使用，然后将该脚本块添加到页面中。</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
